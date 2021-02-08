@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<math.h>
 int main()
 {
     int a,c;
@@ -18,7 +17,7 @@ int main()
         if(sum>200)
         {
             pay1=pay1+((sum-200)*3);
-            printf("%.2f",ceil(pay1));
+            printf("%.2f",pay1);
         }
         else
         {

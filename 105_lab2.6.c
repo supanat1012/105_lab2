@@ -2,11 +2,13 @@
 #include<string.h>
 int main()
 {
-    unsigned long int a,b;
+    int a,b,A[20],i;
+    char B[]={};
 
-    scanf("%lu",&a);
+    scanf("%s",B);
 
-    b=strlen(a);
-    printf("%lu",b);
+    a=strlen(B);
+
+    printf("%d",a);
 
 }
