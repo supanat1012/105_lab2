@@ -17,7 +17,7 @@ int main()
     {
         if(sum>200)
         {
-            pay1=pay1+((sum-199)*3)+(b*3);
+            pay1=pay1+((sum-200)*3);
             printf("%.2f",pay1);
         }
         else
@@ -28,7 +28,17 @@ int main()
     }
     else if(ch=='B')
     {
-
+        if(sum>400)
+        {
+            pay2=pay2+((sum-299)*2)+(b*2);
+            printf("%.2f",pay2);
+        }
+        else
+        {
+            printf("%.2f",pay2);
+        }
     }
+
+
 
 }
