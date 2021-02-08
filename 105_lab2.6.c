@@ -2,13 +2,21 @@
 #include<string.h>
 int main()
 {
-    int a,b,A[20],i;
-    char B[]={};
+    int a,b,i;
+    char A[]={};
 
-    scanf("%s",B);
+    scanf("%s",A);
 
-    a=strlen(B);
+    a=strlen(A);
+    printf("---%d---",a);
+    printf("%c",A[1]);
+    for(i=0;i<a;i++)
+    {
+        if(A[i]==0)
+            printf("%c-Zero");
+        else if(A[i]==1)
+            printf("%c-One");
 
-    printf("%d",a);
+    }
 
 }
