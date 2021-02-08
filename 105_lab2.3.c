@@ -38,10 +38,12 @@ int main()
             B[i]=b;
           }
         else if(A[i]=='C')
-           {
+          {
              B[i]=c;
-           }
+          }
     }
+
+    printf("%d %d %d",B[0],B[1],B[2]);
 
 
 
