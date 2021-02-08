@@ -1,8 +1,12 @@
 #include<stdio.h>
+#include<string.h>
 int main()
 {
-    int a,;
+    unsigned long int a,b;
 
-    scanf("%d",&a);
+    scanf("%lu",&a);
+
+    b=strlen(a);
+    printf("%lu",b);
 
 }
