@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 int main()
 {
     int a,c;
@@ -6,11 +7,10 @@ int main()
     char ch;
 
     scanf("%c",&ch);
-    scanf("%d.%f",&a,&b);
-    b=b/100;
-    sum=a+b;
+    scanf("%f",&sum);
+    //b=b/100;
 
-    //printf("%.2f",sum);
+    //printf("%.2f----",sum);
 
 
     if(ch=='A')
@@ -18,11 +18,11 @@ int main()
         if(sum>200)
         {
             pay1=pay1+((sum-200)*3);
-            printf("%.2f",pay1);
+            printf("%.2f",ceil(pay1));
         }
         else
         {
-            printf("%d", pay1);
+            printf("%.2f", pay1);
         }
 
     }
