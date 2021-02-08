@@ -1,20 +1,30 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,c;
+    int a,b,c,B[9],save;
     char A[9];
 
     scanf("%d %d %d",&a,&b,&c);
     fflush(stdin);
-    puts(A);
 
-    if(A=="ABC")
+    if(a>b)
     {
-        printf("dsfdsgdfgdfg");
+        save=a;
+        a=b;
+        b=save;
     }
-
-
-    gets(A);
+    if(a>c)
+    {
+        save=a;
+        a=x;
+        c=save;
+    }
+    if(b>c)
+    {
+        save=b;
+        b=c;
+        c=save;
+    }
 
 
 
