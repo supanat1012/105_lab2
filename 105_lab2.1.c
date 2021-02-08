@@ -15,13 +15,26 @@ int main()
             {
                 sum=a+b+c;
 
-                if()
-
-
-
-
+                if(80<=sum)
+                    printf("A");
+                else if(75<=sum)
+                    printf("B+");
+                else if(70<=sum)
+                    printf("B");
+                else if(65<=sum)
+                    printf("C+");
+                else if(60<=sum)
+                    printf("C");
+                else if(55<=sum)
+                    printf("D+");
+                else if(50<=sum)
+                    printf("D");
+                else
+                    printf("F");
 
 
             }
         }
     }
+
+}
