@@ -22,7 +22,7 @@ int main()
         }
         else
         {
-            printf("%.2f",pay1);
+            printf("%d", pay1);
         }
 
     }
@@ -30,7 +30,7 @@ int main()
     {
         if(sum>400)
         {
-            pay2=pay2+((sum-299)*2)+(b*2);
+            pay2=pay2+((sum-400)*2);
             printf("%.2f",pay2);
         }
         else
