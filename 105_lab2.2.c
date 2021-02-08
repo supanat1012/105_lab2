@@ -10,14 +10,15 @@ int main()
     b=b/100;
     sum=a+b;
 
-    printf("%.2f",sum);
+    //printf("%.2f",sum);
 
 
     if(ch=='A')
     {
         if(sum>200)
         {
-
+            pay1=pay1+((sum-199)*3)+(b*3);
+            printf("%.2f",pay1);
         }
         else
         {
