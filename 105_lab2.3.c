@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,c,B[9],save;
+    int a,b,c,B[9],save,i;
     char A[9];
 
     scanf("%d %d %d",&a,&b,&c);
@@ -29,12 +29,18 @@ int main()
     scanf("%s",A);
     for(i=0;i<3;i++)
     {
-        if(A[i]=='A');
+        if(A[i]=='A')
+          {
             B[i]=a;
-        else if(A[i]=='B');
+          }
+        else if(A[i]=='B')
+          {
             B[i]=b;
-        else if(A[i]=='C');
-            B[i]=c;
+          }
+        else if(A[i]=='C')
+           {
+             B[i]=c;
+           }
     }
 
 
