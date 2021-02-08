@@ -16,7 +16,7 @@ int main()
     if(a>c)
     {
         save=a;
-        a=x;
+        a=c;
         c=save;
     }
     if(b>c)
@@ -24,6 +24,17 @@ int main()
         save=b;
         b=c;
         c=save;
+    }
+
+    scanf("%s",A);
+    for(i=0;i<3;i++)
+    {
+        if(A[i]=='A');
+            B[i]=a;
+        else if(A[i]=='B');
+            B[i]=b;
+        else if(A[i]=='C');
+            B[i]=c;
     }
 
 
